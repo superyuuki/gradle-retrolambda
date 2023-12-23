@@ -41,7 +41,7 @@ class RetrolambdaTask extends DefaultTask {
     @OutputDirectory
     File outputDir
 
-    @Input
+    @InputFiles
     FileCollection classpath
 
     @Input
